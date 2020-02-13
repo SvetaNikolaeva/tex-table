@@ -3,4 +3,4 @@ Here you can find python script for LaTex code of tables creation through pandas
 
 python3 pandas_tex.py > "log.txt"
 
-Log file contains LaTex code. Assuming you have table in CSV or text format with columns named like: "par", "par_min", "par_max" and others, e.g., "statistics", "exposure", "obsIds" etc. Some of columns you can keep unchanged without any formating (e.g. last few ones in previous sentence), but for estimated parameters it will look like: " $par^{+err1}_{-err2} ", where err1 = par_max - par, err2 = par - par_min
+Log file contains LaTex code. Assuming you have table in CSV or text format with columns named like: "par", "par_min", "par_max" and others, e.g., "statistics", "exposure", "obsIds" etc. Some of columns you can keep unchanged without any formating (e.g. last few ones in previous sentence), but for estimated parameters it will look like: " $par^{+err1}_{-err2}$ ", where err1 = par_max - par, err2 = par - par_min
