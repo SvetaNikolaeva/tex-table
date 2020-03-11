@@ -8,7 +8,7 @@ params = ['nh', 'PI', 'norm', '1', '2', '3'] # list of parameters
 fact = [1, 1, 10**5, 1, 1, 1] # list of factors for each parameter
 
 # write first 3 columns unchanged (obsIds, exposure, chi_r etc)
-for i in np.arange(0, 3):
+for i in np.arange(0, 5):
     df_tex[df_1.columns[i]] = df_1[df_1.columns[i]].apply(lambda x:x)
 
 # write parameters with errors    
